@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Test</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="../common/patternbot.js"></script>
+</head>
+<body>
+
+  <div class="grid gutter-1-2 pad-t pad-b">
+
+    <div class="unit xs-1 m-1-2 gutter-1-2">
+      <script type="application/json" data-pattern="cards/basic-card">
+        {
+          ".card h2": "Go, Go, Power Rangers!",
+          ".card p": "Mighty Morphin’ Power Rangers"
+        }
+      </script>
+      <script type="application/json" data-pattern="cards/image-card">
+        {
+          ".card h2": "Robot Robot Mayhem",
+          ".card img[src]": "https://placehold.it/256x256"
+        }
+      </script>
+    </div>
+
+    <div class="unit xs-1 m-1-2 gutter-1-2">
+      <script type="application/json" data-pattern="cards/icon-card">
+        {
+          ".card h2": "Brachiosaurus",
+          ".card .icon use[xlink:href]": "../images/icons.svg#brachiosaurus"
+        }
+      </script>
+      <script type="application/json" data-pattern="cards/basic-card">
+        {
+          ".card h2": "Autobots, roll out!",
+          ".card p": "Robots in disguise"
+        }
+      </script>
+    </div>
+
+  </div>
+
+</body>
+</html>

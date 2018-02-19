@@ -1,0 +1,18 @@
+:root {
+  --color-primary: #f33;
+  --color-primary-light: #f99;
+  --color-secondary: #3ff;
+  --color-accent-bright: magenta;
+  --color-accent-not-as-bright: darkmagenta;
+  --color-neutral: #e2e2e2;
+  --font-primary: "Overpass", sans-serif; /* 400, 400i, 700 */
+  --font-secondary: "Source Code Pro", monospace;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1 {
+  color: var(--color-primary-light);
+}

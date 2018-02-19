@@ -1,0 +1,7 @@
+.masthead {
+  background-color: var(--color-primary-light);
+}
+
+.masthead h1 {
+  color: #fff;
+}
